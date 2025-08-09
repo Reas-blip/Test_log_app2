@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Date" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Time" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Engine speed (RPM)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Frequency (HZ)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gen Excitation Voltage (V)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gas pressure (mbar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gas buffer tank pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Crank shaft casing pressure (mbar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Charge pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="HT line inlet pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LT Line inlet pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="HT line outlet pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LT Line outlet pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cooling water pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Oil Pressure (bar)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Room temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Return water temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cooling water Temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Oil Temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Compressed outlet temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Charge Temp. (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bearing temp.- DE (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bearing temp.-NDE (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Engine oil level" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No. Radiator fan running" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gas mixer 1 position (%)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lambda (λ)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Throttle valve position (%)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Compressor bypass(%)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Power Factor" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Running Hour" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Avg. Voltage (V)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Avg. Ampere (A)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Load ( KW )" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="KWH Meter" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 1 Opening" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 1 Closing" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 1 Consumption" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 2 Opening" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 2 Closing" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GG FM 2 Consumption" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A1 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A2 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A3 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A4 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A5 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder A6 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B1 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B2 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B3 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B4 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B5 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cylinder B6 (°C)" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Remarks" android:padding="8dp"/>
+</LinearLayout>
+</ScrollView>
